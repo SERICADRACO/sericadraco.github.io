@@ -1,2 +1,2 @@
 # sericadraco.github.io
-Business Website
+Freelancing website (under development)
