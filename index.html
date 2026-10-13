@@ -1,38 +1,208 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-    <!-- Link to an external CSS stylesheet (Optional) -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Serica Draco provides independent technical, engineering and business support for international companies working with China.">
+  <meta name="theme-color" content="#101c2c">
+  <title>Serica Draco | Tech &amp; Biz Consulting</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/serica-draco-mark.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Independent technical &amp; business support</span>
+      <span>China · Greater Bay Area · International projects</span>
+    </div>
+  </div>
 
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>A simple, modern website built from scratch.</p>
-    </header>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Serica Draco home">
+        <img class="brand-mark" src="assets/images/serica-draco-mark.svg" alt="" width="46" height="46">
+        <span>
+          <span class="brand-name">SERICA DRACO</span>
+          <span class="brand-subtitle">Tech &amp; Biz Consulting</span>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-navigation" class="navigation" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#career">Career</a>
+        <a class="nav-cta" href="#contact">Let's connect</a>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section>
-            <h2>About This Site</h2>
-            <p>This is a starter boilerplate for a basic home page. You can easily modify this text or add your own content here.</p>
-        </section>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow">Technology · Engineering · China support</div>
+          <h1>Connecting global business with <span>technical expertise</span> on the ground in China.</h1>
+          <p>Serica Draco helps international companies navigate technical projects, suppliers, factories and customer needs through practical, independent support in China's Greater Bay Area.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Discuss a project <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#services">Explore services</a>
+          </div>
+          <p class="hero-note">A hands-on partner for the practical details between business plans and real-world execution.</p>
+        </div>
+        <div class="hero-emblem" aria-hidden="true">
+          <img src="assets/images/serica-draco-mark.svg" alt="">
+        </div>
+      </div>
+    </section>
 
-        <section>
-            <h2>Key Features</h2>
-            <ul>
-                <li>Fully responsive layout container</li>
-                <li>Clean and modern semantic HTML5 tags</li>
-                <li>Ready to be styled with CSS</li>
-            </ul>
-        </section>
-    </main>
+    <section class="intro section-muted">
+      <div class="container intro-grid">
+        <div>
+          <div class="eyebrow eyebrow-dark">Your local technical partner</div>
+          <h2>From technical questions to practical outcomes.</h2>
+          <div class="body-copy">
+            <p>Working across countries, cultures and technical disciplines takes more than remote communication. It takes clear coordination, sound engineering judgement and a reliable point of contact who understands both customer expectations and the realities of implementation.</p>
+            <p>Serica Draco provides independent support to help international businesses connect requirements with people, products and processes in China.</p>
+          </div>
+          <div class="pill-list">
+            <span class="pill">Engineering &amp; product support</span>
+            <span class="pill">Supplier &amp; factory coordination</span>
+            <span class="pill">International customer interface</span>
+            <span class="pill">Greater Bay Area, China</span>
+          </div>
+        </div>
+        <aside class="principles">
+          <h3>How I can contribute</h3>
+          <div class="principle">
+            <span class="principle-number">01</span>
+            <div><strong>Understand the requirement</strong><p>Clarify technical needs, customer expectations and project priorities.</p></div>
+          </div>
+          <div class="principle">
+            <span class="principle-number">02</span>
+            <div><strong>Coordinate the right people</strong><p>Bridge customers, suppliers, factories and cross-functional teams.</p></div>
+          </div>
+          <div class="principle">
+            <span class="principle-number">03</span>
+            <div><strong>Support execution</strong><p>Help move work forward through practical follow-up and on-site coordination.</p></div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2026 My Website. All rights reserved.</p>
-    </footer>
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow eyebrow-dark">Services</div>
+          <h2>Flexible support for complex, real-world work.</h2>
+          <p>Support can be tailored to a specific assignment, customer project, factory visit or ongoing need for a trusted technical contact in China.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">⌘</div>
+            <h3>Technical &amp; Engineering Support</h3>
+            <p>Technical consultation, troubleshooting, product evaluation, implementation support and coordination between engineering teams and customers.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">⚙</div>
+            <h3>Factory &amp; Supplier Coordination</h3>
+            <p>Local communication, factory visits, technical follow-up, supplier liaison and practical support for manufacturing-related activities.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">⇄</div>
+            <h3>China-Based Representation</h3>
+            <p>A local professional interface for overseas companies that need on-the-ground coordination with China-based partners.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">◎</div>
+            <h3>Customer Trials &amp; After-Sales</h3>
+            <p>Support for product demonstrations, customer trials, commissioning, training and on-site technical assistance where agreed.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">◇</div>
+            <h3>Exhibitions &amp; Business Support</h3>
+            <p>Support around industry exhibitions, customer meetings, technical presentations and follow-up activities.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">▤</div>
+            <h3>Project &amp; Team Coordination</h3>
+            <p>Cross-functional coordination across R&amp;D, sales, marketing, manufacturing, suppliers and customers to keep activities aligned.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section class="callout">
+      <div class="container callout-inner">
+        <div>
+          <h2>Need a reliable technical contact in China?</h2>
+          <p>Let's discuss the context, the people involved and the kind of practical support that would help your project move forward.</p>
+        </div>
+        <a class="button button-primary" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div>
+          <div class="eyebrow eyebrow-dark">About Serica Draco</div>
+          <h2>International perspective. Local understanding.</h2>
+          <div class="profile-card">
+            <div class="profile-initials">FC</div>
+            <h3>Fabio Costa</h3>
+            <p>Independent technical and business consultant based in China's Greater Bay Area.</p>
+          </div>
+        </div>
+        <div class="body-copy about-copy">
+          <p>I'm an Italian, Rome-born technical professional with international experience across electronics, telecommunications, computer systems and a range of industrial and consumer technologies.</p>
+          <p>My work connects technical knowledge, customer requirements and practical execution. I have supported activities spanning engineering and product development, customer-facing technical work, supplier and factory coordination, implementation, training and post-sales support.</p>
+          <p>Across my career, I have worked with cross-functional and multicultural teams, helping align technical, operational and business priorities in international environments.</p>
+          <p>Through Serica Draco, I offer flexible, independent support to companies that need an experienced professional who can help bridge overseas expectations and local execution in China.</p>
+          <p class="editorial-note">This introduction is an initial draft. We can refine it against your CV and approved LinkedIn profile wording before publishing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="career">
+      <div class="container">
+        <div class="eyebrow eyebrow-dark">Open to new opportunities</div>
+        <h2>Let's create the next chapter.</h2>
+        <div class="career-card">
+          <div>
+            <h3>Consulting projects, technical leadership and international roles</h3>
+            <p>In addition to independent assignments, I'm open to discussing suitable new challenges where my technical background, international experience and China-based perspective can add value.</p>
+          </div>
+          <a class="button button-primary" href="https://www.linkedin.com/in/fabiocostainchina/" target="_blank" rel="noopener noreferrer">View LinkedIn profile <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel">
+        <div>
+          <div class="eyebrow">Contact</div>
+          <h2>Have a project or opportunity in mind?</h2>
+          <p>Whether you need technical support in China, help coordinating an international project, or want to discuss a potential professional opportunity, I'd be glad to hear from you.</p>
+          <p>Share a little about your needs and we can explore whether I may be able to help.</p>
+        </div>
+        <div class="contact-links">
+          <!-- IMPORTANT: replace the placeholder email before publishing. -->
+          <a class="contact-link" href="mailto:YOUR_EMAIL@example.com"><span>Email</span>YOUR_EMAIL@example.com ↗</a>
+          <a class="contact-link" href="https://www.linkedin.com/in/fabiocostainchina/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span>Connect with Fabio Costa ↗</a>
+          <div class="contact-link contact-location"><span>Location</span>Greater Bay Area, Guangdong, China</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="current-year"></span> Serica Draco — Tech &amp; Biz Consulting</span>
+      <span>Independent consulting · Technical support · International coordination</span>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
